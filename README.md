@@ -7,3 +7,5 @@ Depois, vamos para o git commit -m 'mensagem legal'
 Eeee finalmente: git push para mandarmos para o site do github
 
 (Deu um trabalhão fazer o readme aparecer.. mas consegui!!!)
+
+#### Decidi alterar por aqui para ver como funciona
