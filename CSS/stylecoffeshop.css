@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+	margin: 0;
+    padding: 0;
+}
+
+h1, h2, p, ul {
+	margin-bottom: 10px;
+}
+
+nav {
+    float: left;
+	width: 22%;
+	background-color: darkgray;
+	font-size: 20px;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.paragrafo-01 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: large;
+	font-weight: bold;
+}
+
+div label {
+	width: 30%;
+    margin: 5px 10px;
+}
+
+.div p {
+	margin-bottom: 25px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+input {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.input {
+	margin-top: 25px;
+}
+
+.endereco {
+	margin-top: 25px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+header {
+	background-color: cadetblue;
+	padding: 30px 0;
+	text-align: center;
+}
+
+article {
+	float: left;
+	width: 78%;
+	background-color: lightcyan;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer {
+	background-color: cadetblue;
+	padding: 30px 0;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	nav {
+		width: 28%;
+	}
+	article {
+		width: 72%;
+	}
+}
+
+@media (max-width: 425px) {
+	nav {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	article {
+		width: 100%;
+	}
+}
